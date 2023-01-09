@@ -51,22 +51,19 @@ body {
     color: #f0ffff94;
     margin-bottom: 5px;
     margin-top: 10px;
+    margin-left: 40px;
+
 }
 
-.conteudo-input input {
+input {
     width: 80%;
     border: 0;
     background-color: #52486b;
     padding: 12px;
     border-radius: 8px;
     color: white;
-}
-
-
-.conteudo-card label,
-input,
-button {
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -78,7 +75,6 @@ button {
 
 .botao {
     margin-top: 20px;
-    width: 85%;
     padding: 12px;
     border: none;
     border-radius: 8px;
@@ -92,20 +88,27 @@ button {
     box-shadow: 0px 10px 40px -12px #00ff8852;
 }
 
+.container-botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .botao:hover {
     background-color: #09b062;
 }
 
 
 @media only screen and (max-width: 900px) {
-    .conteudo{
+    .conteudo {
         flex-direction: column;
         justify-content: center;
     }
 
-    .conteudo-cabecalho h1{
+    .conteudo-cabecalho h1 {
         margin-bottom: 30px;
     }
+
     .conteudo-cabecalho img {
         display: none;
         visibility: hidden;
@@ -117,8 +120,8 @@ button {
     }
 }
 
-@media only screen and (max-width: 393px){
-    .conteudo-card{
+@media only screen and (max-width: 393px) {
+    .conteudo-card {
         width: 80vw;
         height: 50vh;
     }
@@ -129,20 +132,12 @@ button {
         padding: 15px;
         font-size: 10px;
 
-    }
-
-    .botao {
-        width: 80%;
-        height: 20px;
-        font-size: 12px;
-        padding-bottom: 30px;
-        margin-right: 20px;
     }
 }
 
 
 @media only screen and (max-width: 375px) {
-    .conteudo-card{
+    .conteudo-card {
         width: 80vw;
         height: 50vh;
     }
@@ -155,18 +150,10 @@ button {
 
     }
 
-    .botao {
-        width: 80%;
-        height: 20px;
-        font-size: 12px;
-        padding-bottom: 30px;
-        margin-right: 20px;
-    }
-
 }
 
-@media only screen and (max-width: 375px){
-    .conteudo-card{
+@media only screen and (max-width: 375px) {
+    .conteudo-card {
         width: 70vw;
         height: 50vh;
     }
@@ -179,11 +166,4 @@ button {
 
     }
 
-    .botao {
-        width: 65%;
-        height: 20px;
-        font-size: 12px;
-        padding-bottom: 30px;
-        margin-right: 20px;
-    }
 }
