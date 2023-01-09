@@ -30,6 +30,7 @@ body {
     height: 330px;
     background-color: #2f2841;
     border-radius: 15px;
+    box-shadow: #18181a 0px 3px 8px;
 }
 
 .conteudo-card-container {
@@ -64,6 +65,7 @@ input {
     color: white;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: #18181a 0px 3px 8px;
 }
 
 
