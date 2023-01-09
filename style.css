@@ -88,6 +88,7 @@ input {
     background-color: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8852;
+    box-shadow: #18181a 0px 3px 8px;
 }
 
 .container-botao {
